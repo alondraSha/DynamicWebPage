@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<title>Dramas are Fantastic</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Dramas</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">:)</div>
+    <div class="w3-center w3-padding-16">My Drama Recommendations</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="/dramas/abyss.jfif" alt="abyss" style="width:100%">
+      <h3>Abyss</h3>
+      <p>After meeting an untimely demise in separate incidents, Cha Min and Go Se-yeon discover they've come back to life in new bodies they don't recognize.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/dramas/Descendants of the Sun.png" alt="Descendants of the sun" style="width:100%">
+      <h3>Descendants of the Sun</h3>
+      <p>A love story between Captain Yoo Shi Jin, Korean Special Forces, and Doctor Kang Mo Yeon, surgeon at Haesung Hospital. Together they face danger in a war-torn country. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/dramas/He Is Psychometric.jfif" alt="he is Psychometric" style="width:100%">
+      <h3>He is Psychometric</h3>
+      <p>A young man has the supernatural ability to see people's memories by touching their skin.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/dramas/hello my twenties.jfif" alt="hello my twenties" style="width:100%">
+      <h3>Hello my Twenties</h3>
+      <p>Five female housemates and college students meet and live at the Belle Epoque. While strangers at first, they are able to bond and connect over the traumas they experienced while growing up. Together they juggle the perils of adult life.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/dramas/Hotel del Luna.jfif" alt="Hotel del Luna" style="width:100%">
+      <h3>Hotel del Luna</h3>
+      <p>Located in the middle of Seoul, Hotel del Luna is the eponymous hotel that caters only to ghosts; the beautiful but ill-tempered CEO is cursed to manage the hotel due to a terrible crime she committed, but cannot remember.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/dramas/Hwarang.jfif" alt="Hwarang" style="width:100%">
+      <h3>Hwarang</h3>
+      <p>An elite group of young men called Hwarang discover their passions, love and friendship in the turmoil of the Silla Kingdom.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/dramas/SKY Castle.jfif" alt="sky Castle" style="width:100%">
+      <h3>Sky Castle</h3>
+      <p>Housewives living at the exclusive Sky Castle community use every way they can think of to get their children into Seoul National University.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/dramas/start up.jfif" alt="start up" style="width:100%">
+      <h3>Start Up</h3>
+      <p>Seo Dal Mi has dreams of becoming Korea's own Steve Jobs, and with her genius first love, an investor, and a business insider by her side, her dream may be closer than she thinks.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+        <a href="page1.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+        <a href="page2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="page3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="page4.html" class="w3-bar-item w3-black w3-button">4</a>
+    </div>
+  </div>
+  
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Credits:</h3>
+      <p>Website by Alondra Shackleford.</p>
+    </div>
+
+
+
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

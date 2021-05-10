@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>Anime is Fantastic</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Anime</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16" >:)</div>
+    <div class="w3-center w3-padding-16">My Anime Recommendations</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="/anime/jjk.png" alt="Sandwich" style="width:100%">
+      <h3>Jujutsu Kaisen</h3>
+      <p>The story of Jujutsu Kaisen is set in a world where Cursed Spirits feed on unsuspecting humans and fragments of the legendary and feared demon Ryomen Sukuna have been lost and scattered about.
+        Should any curse consume Sukuna's body parts, the power they gain could destroy the world as we know it. Fortunately, there exists a mysterious school of Jujutsu Sorcerers who exist to protect the precarious existence of the living from the supernatural!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/anime/one punch man.jfif" alt="Steak" style="width:100%">
+      <h3>One Punch Man</h3>
+      <p>One-Punch Man is a Japanese superhero franchise created by the artist ONE. It tells the story of Saitama, a superhero who can defeat any opponent with a single punch but seeks to find a worthy opponent after growing bored by a lack of challenge due to his overwhelming strength. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/anime/naruto.jfif" alt="Cherries" style="width:100%">
+      <h3>Naruto</h3>
+      <p> It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/anime/great pretender.png" alt="Pasta and Wine" style="width:100%">
+      <h3>Great Pretender</h3>
+      <p>Makoto Edamura, supposedly Japan's greatest swindler, gets more than he bargained for when he tries to con real world-class crook Laurent Thierry.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/anime/death parade.jfif" alt="Popsicle" style="width:100%">
+      <h3>Death Parade</h3>
+      <p>After death, there is no heaven or hell, only a bar that stands between reincarnation and oblivion. There the attendant will, one after another, challenge pairs of the recently deceased to a random game in which their fate of either ascending into reincarnation or falling into the void will be wagered. Whether it's bowling, darts, air hockey, or anything in between, each person's true nature will be revealed in a ghastly parade of death and memories, dancing to the whims of the bar's master. Welcome to Quindecim, where Decim, arbiter of the afterlife, awaits!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/anime/aot.jfif" alt="Salmon" style="width:100%">
+      <h3>Attack on Titan</h3>
+      <p>It is set in a world where humanity lives inside cities surrounded by three enormous walls that protect them from the gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/anime/toilet bound hanako kun.jfif" alt="Sandwich" style="width:100%">
+      <h3>Toilet Bound Hanako-kun</h3>
+      <p>Nene Yashiro, a first-year high-school student who loves the occult and wishes for a boyfriend, summons the Seventh and most famous Wonder, "Hanako-san of the Toilet", a girl who allegedly haunts the bathroom and can grant wishes for the right price.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/anime/demon slayer.jfif" alt="Croissant" style="width:100%">
+      <h3>Demon Slayer</h3>
+      <p>The story takes place in Taishō-era Japan. It follows Tanjiro Kamado and his sister Nezuko Kamado as they seek a cure to Nezuko's demon curse. Tanjiro and Nezuko become entangled in the affairs of a secret society, known as the Demon Slayer Corps, that have been waging a secret war against demons for centuries.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="page1.html" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="page2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="page3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="page4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Fan</h3><br>
+    <img src="/anime/me.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="300" height="200">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Entertainment</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of anime, manga/manhwa, kpop, and dramas. I want to share my world with you. アニメ.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Credits:</h3>
+      <p>Website by Alondra Shackleford.</p>
+    </div>
+
+
+
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
